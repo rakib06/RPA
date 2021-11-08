@@ -9,3 +9,6 @@ pip freeze > .\requirements.txt
 
 ## install required packages 
 pip install -r .\requirements.txt
+
+# Execution Policy 
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
