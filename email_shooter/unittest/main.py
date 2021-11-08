@@ -15,7 +15,7 @@ class GmailEmailShoot(unittest.TestCase):
         self.driver.maximize_window() 
 
     # Test Login credentials 
-    def test_test_login(self):
+    def test_login(self):
         mainPage = page.MainPage(self.driver)
         mainPage.email_text_element = os.environ.get('email')
         mainPage.click_next_button()
