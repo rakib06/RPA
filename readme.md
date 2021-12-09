@@ -1,6 +1,8 @@
 ## Creating environment 
+```cmd
 pip install virtualenv
 virtualenv venv
+```
 ## Activate isolation 
 (cmd as administrator) powershell Set-ExecutionPolicy RemoteSigned
 .\venv\Scripts\activate
