@@ -2,6 +2,11 @@
 ```cmd
 pip install virtualenv
 virtualenv venv
+
+Windows:
+python -m virtualenv venv -p "C:\Users\rakibul.hasan\AppData\Local\Programs\Python\Python39\python.exe"
+
+
 ```
 ## Activate isolation 
 (cmd as administrator) powershell Set-ExecutionPolicy RemoteSigned
