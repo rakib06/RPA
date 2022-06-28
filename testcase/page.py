@@ -2,7 +2,9 @@ from locator import *
 from element import BasePageElement
 
 class SearchTextElement(BasePageElement):
-    locator = "q" # name = "q"
+    # locator = (By.NAME, "q") # name = "q"
+    # locator = (By.XPATH, '//*[@id="id-search-field"]')
+    locator = (By.CSS_SELECTOR, '#id-search-field')
 
 # class GoButtonEment(BasePageElement):
 #     locator = "go"
