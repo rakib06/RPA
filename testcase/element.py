@@ -2,7 +2,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 class BasePageElement:
-    
+    # locator = (By.CSS_SELECTOR, '#id-search-field')
     def __set__(self, obj, value):
         driver = obj.driver
         element = WebDriverWait(driver, 100).until(lambda driver: driver.find_element(*self.locator))   
